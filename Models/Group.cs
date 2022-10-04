@@ -11,7 +11,7 @@ namespace SocielApp_Demo.Models
         public String Description { get; set; }
         public String Rules { get; set; }
 
-        public ICollection<UserGroup> UserinGroups { get; set; }
+        public ICollection<UserGroup> UserGroup { get; set; }
         public ICollection<Posts> Posts { get; set; }
 
     }
