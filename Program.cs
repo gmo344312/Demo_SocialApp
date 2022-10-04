@@ -1,8 +1,8 @@
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<WebAPI_MXHData.AppDbContext>(options =>
-        options.UseSqlite(Buider.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<SocielApp_Demo.Data.AppDbContext>(options =>
+        options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
 

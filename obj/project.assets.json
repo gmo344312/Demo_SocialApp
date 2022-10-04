@@ -10024,11 +10024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LHUser\\Desktop\\Demo_SocialApp\\Demo_SocialApp\\SocielApp_Demo\\SocielApp_Demo.csproj",
+      "projectUniqueName": "C:\\Users\\LHUser\\Downloads\\SocielApp_Demo\\SocielApp_Demo\\Demo_SocialApp\\SocielApp_Demo.csproj",
       "projectName": "SocielApp_Demo",
-      "projectPath": "C:\\Users\\LHUser\\Desktop\\Demo_SocialApp\\Demo_SocialApp\\SocielApp_Demo\\SocielApp_Demo.csproj",
+      "projectPath": "C:\\Users\\LHUser\\Downloads\\SocielApp_Demo\\SocielApp_Demo\\Demo_SocialApp\\SocielApp_Demo.csproj",
       "packagesPath": "C:\\Users\\LHUser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LHUser\\Desktop\\Demo_SocialApp\\Demo_SocialApp\\SocielApp_Demo\\obj\\",
+      "outputPath": "C:\\Users\\LHUser\\Downloads\\SocielApp_Demo\\SocielApp_Demo\\Demo_SocialApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LHUser\\AppData\\Roaming\\NuGet\\NuGet.Config"

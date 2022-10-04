@@ -10,10 +10,11 @@ namespace SocielApp_Demo.Data
     public class AppDbContext : DbContext
     {
         public DbSet<User> User { get; set; }
-        public DbSet<Posts> Post { get; set; }
+        public DbSet<Posts> Posts { get; set; }
         public DbSet<Group> Group { get; set; }
         public DbSet<Comment> Comment { get; set; }
         public DbSet<UserGroup> UserGroup { get; set; }
+        public DbSet<PostLikers> PostLikers { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
@@ -61,7 +62,7 @@ namespace SocielApp_Demo.Data
                 entity.ToTable("tbUserGroup");
                 entity.HasKey(k => new{ k.UserId,k.GroupId});
                 entity.HasOne<User>(g => g.User).WithMany(u=>u.UserGroup).HasForeignKey(g=>g.UserId);
-                entity.HasOne<Posts>(u => u.Group).WithMany(g => g.UserinGroups).HasForeignKey(ug => ug.GroupId);
+                entity.HasOne<Posts>(u => u.Group).WithMany(g => g.UserinGroup).HasForeignKey(ug => ug.GroupId);
             });
         }
     }

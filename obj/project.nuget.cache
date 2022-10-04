@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b2doqQRBIX/EjXY0moqIM7KrOCPJ/m7iCUR4H6LfgCy63CZWZmCs9enKdc61wav2BmK1d4pEwyDwavzt83TrAg==",
+  "dgSpecHash": "1Mpwmcq+hQ7Kzq4stnaX97UgIqy38s9MSMOqdL2rKh1H9X23xbCfxkgCrEbNiX8qMembQw7oeLhrdZ2pBBjuHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LHUser\\Desktop\\Demo_SocialApp\\Demo_SocialApp\\SocielApp_Demo\\SocielApp_Demo.csproj",
+  "projectFilePath": "C:\\Users\\LHUser\\Downloads\\SocielApp_Demo\\SocielApp_Demo\\Demo_SocialApp\\SocielApp_Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LHUser\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\LHUser\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
