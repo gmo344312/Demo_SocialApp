@@ -12,5 +12,6 @@ namespace SocielApp_Demo.Models
 
         public User User { get; set; }
         public Guid UserId { get; set; }
+        public DateTime UserTime {get;set;}
     }
 }

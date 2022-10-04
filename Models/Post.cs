@@ -15,7 +15,7 @@ namespace SocielApp_Demo.Models
         public Group Group { get; set; }
 
         public ICollection<Comment> Comment { get; set; }
-        public ICollection<User> Likers { get; set; }
+        public ICollection<PostLikers> PostLikers { get; set; }
 
     }
 }
