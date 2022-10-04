@@ -11,6 +11,6 @@ namespace SocielApp_Demo.Models
         public Guid AuthorId { get; set; }
         public User Author { get; set; }
         public Guid PostId { get; set; }
-        public Post Post { get; set; }
+        public Posts Posts { get; set; }
     }
 }
