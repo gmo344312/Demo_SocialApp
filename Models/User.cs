@@ -13,7 +13,7 @@ namespace SocielApp_Demo.Models
         public String Address { get; set; }
         public DateTime DateOfBirth { get; set; }
 
-        public ICollection<Post> UserPost { get; set; }
-        public ICollection<UserGroup> UserGroups { get; set; }
+        public ICollection<Posts> UserPost { get; set; }
+        public ICollection<PostLikers> PostLikers { get; set; }
     }
 }

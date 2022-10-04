@@ -12,7 +12,7 @@ namespace SocielApp_Demo.Models
         public String Rules { get; set; }
 
         public ICollection<UserGroup> UserinGroups { get; set; }
-        public ICollection<Post> Post { get; set; }
+        public ICollection<Posts> Posts { get; set; }
 
     }
 }
